@@ -20,8 +20,8 @@ var3+=8
 var3//=2
 var3**=2
 print(var1, var2, var3)
- num1 ="one"
- print(num1)
+num1 ="one"
+print(num1)
 num2="two"
 print(num2)
 num3="three"

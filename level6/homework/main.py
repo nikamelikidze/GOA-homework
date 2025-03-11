@@ -14,8 +14,8 @@ name = 'zura'
 print(name)
 age=13
 print(age)
-hello_world + "hello"
-print(hello_world)
+'hello_world' + "hello"
+print("hello_world")
 name2 = 'nika'
 print(name2)
 year=2025
