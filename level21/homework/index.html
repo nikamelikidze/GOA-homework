@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ვიდეოები და აუდიოები</title>
+</head>
+<body>
+
+<!-- 1) ორი ვიდეო ფაილი ჩვეულებრივი დამატებით -->
+<h2>ჩვეულებრივი ვიდეო ფაილები</h2>
+
+<video width="320" height="240" controls muted autoplay>
+  <source src="video1.mp4" type="video/mp4">
+  <source src="video1.webm" type="video/webm">
+  თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.
+</video>
+
+<br><br>
+
+<video width="320" height="240" controls loop>
+  <source src="video2.mp4" type="video/mp4">
+  <source src="video2.webm" type="video/webm">
+  თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.
+</video>
+
+<br><br><hr>
+
+<!-- 2) ორი ვიდეო YouTube-ის iframe-ით -->
+<h2>YouTube ვიდეოები iframe-ით</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+
+<br><br><hr>
+
+<!-- 3) ორი აუდიო ყველა type-ით და fallback ტექსტით -->
+<h2>აუდიო ფაილები ყველა type-ით</h2>
+
+<audio controls>
+  <source src="audio1.mp3" type="audio/mpeg">
+  <source src="audio1.ogg" type="audio/ogg">
+  <source src="audio1.wav" type="audio/wav">
+  ეს type არ არის დაშვებული.
+</audio>
+
+<br><br>
+
+<audio controls>
+  <source src="audio2.mp3" type="audio/mpeg">
+  <source src="audio2.ogg" type="audio/ogg">
+  <source src="audio2.wav" type="audio/wav">
+  ეს type არ არის დაშვებული.
+</audio>
+
+<br><br><hr>
+
+<!-- 4) ორი აუდიო muted, მეორე - loop და autoplay -->
+<h2>აუდიო ფაილები muted და loop-ით</h2>
+
+<audio controls muted>
+  <source src="audio3.mp3" type="audio/mpeg">
+  <source src="audio3.ogg" type="audio/ogg">
+  <source src="audio3.wav" type="audio/wav">
+  ეს type არ არის დაშვებული.
+</audio>
+
+<br><br>
+
+<audio controls muted autoplay loop>
+  <source src="audio4.mp3" type="audio/mpeg">
+  <source src="audio4.ogg" type="audio/ogg">
+  <source src="audio4.wav" type="audio/wav">
+  ეს type არ არის დაშვებული.
+</audio>
+
+</body>
+</html>
